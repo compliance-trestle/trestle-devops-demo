@@ -18,6 +18,7 @@
 install:
 	python -m pip install  --upgrade pip setuptools
 	python -m pip install compliance-trestle --upgrade --upgrade-strategy eager
+	python -m pip install python-semantic-release --upgrade --upgrade-strategy eager
 
 test::
 	python scripts/trestle_assemble_all.py
