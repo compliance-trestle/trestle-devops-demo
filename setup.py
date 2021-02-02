@@ -1,6 +1,6 @@
-# -*- mode:makefile; coding:utf-8 -*-
+# -*- mode:python; coding:utf-8 -*-
 
-# Copyright (c) 2021 IBM Corp. All rights reserved.
+# Copyright (c) 2020 IBM Corp. All rights reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,16 +14,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+from setuptools import setup
 
-install:
-	python -m pip install  --upgrade pip setuptools
-	python -m pip install compliance-trestle --upgrade --upgrade-strategy eager
+__version__ = '0.0.1'
 
-test::
-	python scripts/trestle_assemble_all.py
-	scripts/is_git_project_clean.sh
-
-release::
-	git config --global user.name "semantic-release (via Github actions)"
-	git config --global user.email "semantic-release@github-actions"
-	semantic-release publish
+setup()
