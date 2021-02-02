@@ -3,7 +3,7 @@
 
 if [ -z "$(git status --porcelain)" ]; then 
   # Working directory clean
-  echo "git working directory is clean"
+  echo "git working directory is clean."
   exit 0
 else 
   # Uncommitted changes
