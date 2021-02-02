@@ -12,6 +12,8 @@ devops process
   - Semantic releases can be used to govern the repository 
   - Semantic release at the file management layer is an open issue: https://github.com/IBM/compliance-trestle/issues/323
 
+To keep things simple the expectation is that users have run trestle assemble beflreo a release themselves. The CICD merely 
+check that this has occured.
 
 ## Repository setup:
 ### Recommended branch protection
@@ -19,3 +21,5 @@ devops process
 
 ### DevOps automation
 
+
+### )RE

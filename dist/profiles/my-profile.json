@@ -1,0 +1,16 @@
+{
+    "profile": {
+        "uuid": "2ca93e43-c8f0-4a04-80ea-d95e37273d42",
+        "metadata": {
+            "title": "Generic profile created by trestle.",
+            "last-modified": "2021-02-01T03:58:51.513+00:00",
+            "version": "0.0.0",
+            "oscal-version": "1.0.0rc1"
+        },
+        "imports": [
+            {
+                "href": "REPLACE_ME"
+            }
+        ]
+    }
+}
