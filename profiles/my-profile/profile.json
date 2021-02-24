@@ -9,7 +9,7 @@
         },
         "imports": [
             {
-                "href": "REPLACE_ME"
+                "href": "github.com/IBM/compliance-trestle"
             }
         ]
     }
